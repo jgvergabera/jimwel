@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background:  url(HAHAHAHA.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.logo{
+    color: #66d3fa;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: 900px; 
+    padding-top: 20px;
+}
+
+.hey{
+    color: #66d3fa;  
+    font-size: 30px;
+    font-family: arial;
+    padding-top: 20px;
+    margin-left: 50px;
+   
+}
+.meow{
+    width: 160px;
+    height: 40px;
+    background: #3c99dc;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.meow a{
+    text-decoration: none;
+    color: #fff;
+}
+.meow:hover{
+    background-color: #00ffdd;   
+}

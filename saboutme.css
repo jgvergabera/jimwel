@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background:  url(meow.webp);
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+    padding-top: 20px;
+    background-position-y: bottom;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: floralwhite;
+    font-size: 35px;
+    font-family: arial;
+    padding left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: floralwhite;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-weight: bold;    
+    color: floralwhite;
+}
+
+.content h1{
+    font-family: 'time new roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;    
+}
